@@ -1,0 +1,78 @@
+# ==========================================
+# Expense Tracker - Backend Requirements
+# ==========================================
+
+# ==========================================
+# CORE
+# ==========================================
+
+# Django LTS
+Django>=5.2,<5.3
+
+
+# ==========================================
+# REST API
+# ==========================================
+
+# Django REST Framework
+djangorestframework>=3.18,<3.19
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.5,<6.0
+
+# API Filtering
+django-filter>=25.1,<26.0
+
+# CORS
+django-cors-headers>=4.7,<5.0
+
+# API Documentation / OpenAPI
+drf-spectacular>=0.28,<1.0
+
+
+# ==========================================
+# DATABASE
+# ==========================================
+
+# PostgreSQL Driver
+psycopg[binary]>=3.2,<4.0
+
+
+# ==========================================
+# REDIS + CELERY
+# ==========================================
+
+# Redis Python Client
+redis>=6.0,<7.0
+
+# Celery - Background / Async Tasks
+celery>=5.5,<6.0
+
+
+# ==========================================
+# ENVIRONMENT CONFIGURATION
+# ==========================================
+
+# Environment Variables
+python-decouple>=3.8,<4.0
+
+
+# ==========================================
+# TESTING
+# ==========================================
+
+# Pytest
+pytest>=8.3,<9.0
+
+# Django integration for Pytest
+pytest-django>=4.11,<5.0
+
+
+# ==========================================
+# CODE QUALITY
+# ==========================================
+
+# Fast Python Linter / Formatter
+ruff>=0.12,<1.0
+
+django-redis>=5.4,<6.0
